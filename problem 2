@@ -1,0 +1,12 @@
+#Monday, 1/13 Daily Code: More Python Function Reviews, TBG in JAVA
+#Jeremy, Kenny
+#problem 2 Write a python function named "isEven" that takes one parameter named "num". When called, it checks if that number is even (meaning, it's divisible by 2 with no remainder). If it is, it returns True, otherwise it returns False. Call the function twice- once passing it 8 as a parameter, and the other time passing 3, and print the results each time
+def isEven(num): #python function named 
+    if num %2 == 0:
+       return True 
+    
+    else:
+       return False
+    
+result = isEven(2)
+print(result)
