@@ -1,0 +1,9 @@
+#Monday, 1/13 Daily Code: More Python Function Reviews, TBG in JAVA
+#Jeremy Kenny
+#problem 3
+
+def frog(num2): 
+    for frog in range(num2):
+        print("ribbit")
+        
+result = frog(5) #repeat 5 times
