@@ -1,0 +1,6 @@
+#Monday, 1/13 Daily Code: More Python Function Reviews, TBG in JAVA Jeremy, Kenny 
+def CircleCircumference(a):
+    return 10* a * a 
+
+result = CircleCircumference(10) #function call
+print("The circumference of the circle is:", result)
